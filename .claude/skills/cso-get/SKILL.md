@@ -25,7 +25,7 @@
     25	
     26	**二、[P-Prompt]**
     27	[指令五模块]：必须包含 [Role]、[Mission]、[Target Data]、[Constraints]（固定的文本，用 bash 生成以后拼接）、[Output]。
-    28	-时间锚点：cite: {{#当前北京时间#}}
+    28	-时间锚点：cite: {{#实时北京时间#}}
     29	-Role: "[角色定义，针对任务动态生成]"
     30	-Mission: "[任务目标，必须包含逻辑闭环点]"
     31	-Target_Data: "[为逻辑闭环所需的情报]"
