@@ -25,7 +25,7 @@ version: 1.0.0
 
 **二、[P-Prompt]**
 [指令五模块]：必须包含 [Role]、[Mission]、[Target Data]、[Constraints]（固定的文本，用 bash 生成以后拼接）、[Output]。
--时间锚点：cite: {{#[同步互联网时钟]北京时间#}}
+-时间锚点：cite: [需先执行 bash 命令 TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S' 获取实时北京时间]
 -Role: "[角色定义，针对任务动态生成]"
 -Mission: "[任务目标，必须包含逻辑闭环点]"
 -Target_Data: "[为逻辑闭环所需的情报]"
