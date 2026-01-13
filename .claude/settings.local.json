@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Skill(cso-get)"
+      "Skill(cso-get)",
+      "Bash(bash:*)",
+      "WebSearch"
     ]
   }
 }
