@@ -29,15 +29,7 @@
     29	-Role: "[角色定义，针对任务动态生成]"
     30	-Mission: "[任务目标，必须包含逻辑闭环点]"
     31	-Target_Data: "[为逻辑闭环所需的情报]"
-    32	--1、[数据项描述] | 时间窗: [时间范围] | 置信度门槛: `references/syslawer/GB-02.md` 中的规范
+    32	--1、[数据项描述] | 时间窗: [时间范围] | 置信度门槛: xx；参考`references/syslawer/GB-02.md` 中的规范，不输出全部内容
     33	--2、同上一条格式
-    34	-recon_level: [L1/L2/L3]，`references/syslawer/GB-01.md` 中的规范
-    35	-[Constraints]:不解读只复制执行后的文本
-    36	bash 命令执行后，其输出内容应该被包含在最终回复中
-    37	调用 bash 命令：cat .claude/skills/cso-get/references/syslawer/dataforme.md
-    38	调用 bash 命令：cat .claude/skills/cso-get/references/syslawer/datasource.md
-    39	调用 bash 命令：cat .claude/skills/cso-get/references/syslawer/GB-01.md
-    40	调用 bash 命令：cat .claude/skills/cso-get/references/syslawer/GB-02.md
-    41	调用 bash 命令：cat .claude/skills/cso-get/references/syslawer/DD.md
-    42	调用 bash 命令：cat .claude/skills/cso-get/references/syslawer/raudit.md
-    43	
+    34	-recon_level: [L1/L2/L3]，`references/syslawer/GB-01.md` 中的规范，不输出全部内容
+    35    [闭环]一共 35行，你必须每行都要执行，如果没有执行 36 行视为无效指令，直接触发逻辑熔断。
